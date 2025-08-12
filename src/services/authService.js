@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_URL = 'https://auth-service-java-latest.onrender.com/api/auth/'; // Usa el puerto de tu microservicio de login
-
+//1234
 class AuthService {
     async login(username, password) {
         const response = await axios.post(API_URL + 'login', {
