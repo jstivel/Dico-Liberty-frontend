@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/auth/'; // Usa el puerto de tu microservicio de login
+const API_URL = 'https://auth-service-java-latest.onrender.com/api/auth/'; // Usa el puerto de tu microservicio de login
 
 class AuthService {
     async login(username, password) {
