@@ -2,7 +2,7 @@ import axios from 'axios';
 import AuthService from './authService';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8081/api', // La base URL de tu microservicio de proyectos
+    baseURL: 'https://project-service-java-tnll.onrender.com/api', // La base URL de tu microservicio de proyectos
 });
 
 api.interceptors.request.use(
